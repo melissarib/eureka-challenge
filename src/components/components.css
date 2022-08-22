@@ -1,0 +1,84 @@
+section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10vh;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ffffff;
+    border-radius: 4px;
+    padding: 10px;
+    overflow: hidden;
+    margin: 4px;
+}
+
+.users {
+    width: 100%;
+    overflow-y: scroll;
+}
+
+.users ::-webkit-scrollbar {
+    width: 5px;
+}
+
+.users ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+.users ::-webkit-scrollbar-thumb {
+    background: #d7dbe7;
+}
+
+.card-header {
+    color: #8a94a6;
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 4fr 0.5fr;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.card-header p {
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 18px;
+    color: #8a94a6;
+}
+
+.card-body div {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 0.5fr 4fr 0.5fr;
+}
+
+.card-body span, .user-info > p {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    color: #16325c;
+}
+
+.user-info {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.user-info img {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.user-info svg {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
